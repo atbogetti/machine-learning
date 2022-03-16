@@ -4,6 +4,7 @@ import h5py
 from sklearn import linear_model
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
+from sklearn import preprocessing
 from itertools import combinations 
 
 # Prepare the data
@@ -64,26 +65,33 @@ for idx in range(0,666):
         fname = str(a[idx,0])+"-"+str(a[idx,1])
         df[fname] = distmats[:,idx]
 
-ionpair = df.loc[(df['Mindist'] < 5) & (df['Mindist'] > 2.5)]
+ionpair = df.loc[(df['Mindist'] < 4) & (df['Mindist'] > 2.25)]
 
 h5file.close()
 
-# Split the data and train the model
+# Split/scale the data and train the model with weights from WE
 
 print("training the model...")
 
-X = df.iloc[:,6:672]
+X = df.iloc[:,6:]
+#X = X.values.reshape(-1,1)
 y = df.iloc[:,5]
 W = df.iloc[:,3]
 Xtrain, Xtest, ytrain, ytest, Wtrain, Wtest = train_test_split(X, y, W, test_size=0.25, random_state=None)
 
+scaler = preprocessing.StandardScaler().fit(Xtrain)
+Xtrain_scaled = scaler.transform(Xtrain)
+
+scaler = preprocessing.StandardScaler().fit(Xtest)
+Xtest_scaled = scaler.transform(Xtest)
+
 regr = linear_model.LinearRegression()
-regr.fit(Xtrain, ytrain)
+regr.fit(Xtrain_scaled, ytrain, Wtrain)
 
 # Predict and evaluate
 
 print("evaluating predictions...")
 
-predictions = regr.predict(Xtest)
+predictions = regr.predict(Xtest_scaled)
 auc = roc_auc_score(ytest, predictions)
 print("AUC score:",auc)
