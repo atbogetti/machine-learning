@@ -1,2 +1,4 @@
-# machine-learning
-Machine learning for hybrid QM/MM simulations run with the weighted ensemble strategy
+# Machine Learning for Weighted Ensemble Simulations
+
+This is a collection of methods to analyze weighted ensemble simulation data and determine which structural features of the dataset
+are important in a transformation of interest.
