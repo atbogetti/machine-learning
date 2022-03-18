@@ -33,7 +33,6 @@ distmats = []
 charges = []
 
 for i in range(50,501):
-    print(i)
     fstring = 'iterations/iter_'+str(i).zfill(8)
     pcoord = h5file[fstring]['pcoord'][:,1,-1]
     success = h5file[fstring]['auxdata/success'][:,-1]
@@ -73,26 +72,26 @@ perm = combinations(atoms,2)
 a = np.array(list(perm))
 
 for idx in range(0,666):
-    if 'H' in a[idx,0]:
-        continue
-    elif 'H' in a[idx,1]:
-        continue
-    else:
-        fname = str(a[idx,0])+"-"+str(a[idx,1])
-        df[fname] = distmats[:,idx]
+#    if 'H' in a[idx,0]:
+#        continue
+#    elif 'H' in a[idx,1]:
+#        continue
+#    else:
+   fname = str(a[idx,0])+"-"+str(a[idx,1])
+   df[fname] = distmats[:,idx]
 
 for idx, atom in enumerate(atoms):
-    if 'H' in atom:
-       continue
-    else:
-        fname = "q"+atom
-        df[fname] = charges[:,idx]
+#    if 'H' in atom:
+#       continue
+#    else:
+   fname = "q"+atom
+   df[fname] = charges[:,idx]
 
 
 ionpair = df.loc[(df['Mindist'] < 4) & (df['Mindist'] > 2.25)]
 
 #Normalize weights
-#df['Weight'] = min_max_scaling(df['Weight'])
+df['Weight'] = min_max_scaling(df['Weight'])
 
 #plt.hist(df['Weight'], bins=100)
 #plt.savefig("weights_hist.pdf")
@@ -122,9 +121,9 @@ scaler = preprocessing.StandardScaler().fit(Xtest)
 Xtest_scaled = scaler.transform(Xtest)
 
 # Do a quick PCA
-#pca = PCA(5)
-#pca_data = pd.DataFrame(pca.fit_transform(Xtrain_scaled), columns=['Pc1', 'Pc2', 'Pc3', 'Pc4', 'Pc5'])
-#pca_data_test = pd.DataFrame(pca.fit_transform(Xtest_scaled), columns=['Pc1', 'Pc2', 'Pc3', 'Pc4', 'Pc5'])
+#pca = PCA(10)
+#pca_data = pd.DataFrame(pca.fit_transform(Xtrain_scaled), columns=['Pc1', 'Pc2', 'Pc3', 'Pc4', 'Pc5', 'Pc6', 'Pc7', 'Pc8', 'Pc9', 'Pc10'])
+#pca_data_test = pd.DataFrame(pca.fit_transform(Xtest_scaled), columns=['Pc1', 'Pc2', 'Pc3', 'Pc4', 'Pc5', 'Pc6', 'Pc7', 'Pc8', 'Pc9', 'Pc10'])
 #pca_data['Success'] = ionpair['Success']
 
 # Plot the first two PCs colored by the cluster labels
@@ -135,12 +134,13 @@ Xtest_scaled = scaler.transform(Xtest)
 # Train the model
 regr = linear_model.LogisticRegression(solver='liblinear', penalty='l1', max_iter=1e6, C=1)
 regr.fit(Xtrain_scaled, ytrain, Wtrain)
-#regr.fit(pca_data['Pc1'].values.reshape(-1,1), ytrain)#, Wtrain)
+#regr.fit(pca_data, ytrain, Wtrain)
 
 # Predict and evaluate
 
 print("evaluating predictions...")
 
 predictions = regr.predict(Xtest_scaled)
+#predictions = regr.predict(pca_data_test)
 auc = roc_auc_score(ytest, predictions)
 print("AUC score:",auc)
