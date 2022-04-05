@@ -1,0 +1,2344 @@
+processing data...
+pruning samples based on weight...
+437 unsuccessful samples needed to equal successful sample weights
+successful: 36173 unsuccessful: 437
+total unsuccessful weight: 0.30420532053709404 total successful weight: 0.3039393270156282
+training the model...
+Feature: qC1
+evaluating predictions...
+AUC score: 0.46694042175054473
+Overall accuracy: 0.2779416584726319
+confusion matrix:
+[[  72   37]
+ [6572 2472]]
+Feature: qC2
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: qC3
+evaluating predictions...
+AUC score: 0.5361560606859838
+Overall accuracy: 0.4057686004588659
+confusion matrix:
+[[  73   36]
+ [5403 3641]]
+Feature: qC4
+evaluating predictions...
+AUC score: 0.5560663666722121
+Overall accuracy: 0.48989402381732766
+confusion matrix:
+[[  68   41]
+ [4628 4416]]
+Feature: qC5
+evaluating predictions...
+AUC score: 0.5284774943294556
+Overall accuracy: 0.42641756801048836
+confusion matrix:
+[[  69   40]
+ [5210 3834]]
+Feature: qC6
+evaluating predictions...
+AUC score: 0.5115799820652549
+Overall accuracy: 0.5094504534032558
+confusion matrix:
+[[  56   53]
+ [4437 4607]]
+Feature: qC7
+evaluating predictions...
+AUC score: 0.4620519864150392
+Overall accuracy: 0.4563531082705124
+confusion matrix:
+[[  51   58]
+ [4918 4126]]
+Feature: qC8
+evaluating predictions...
+AUC score: 0.5047093922069068
+Overall accuracy: 0.4063148694417131
+confusion matrix:
+[[  66   43]
+ [5391 3653]]
+Feature: qC9
+evaluating predictions...
+AUC score: 0.49526474037224744
+Overall accuracy: 0.4413853381405004
+confusion matrix:
+[[  60   49]
+ [5064 3980]]
+Feature: qC10
+evaluating predictions...
+AUC score: 0.5431925063603422
+Overall accuracy: 0.5092319458101169
+confusion matrix:
+[[  63   46]
+ [4446 4598]]
+Feature: qC11
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: qC12
+evaluating predictions...
+AUC score: 0.5326913479056519
+Overall accuracy: 0.5063913470993117
+confusion matrix:
+[[  61   48]
+ [4470 4574]]
+Feature: qC13
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: qC14
+evaluating predictions...
+AUC score: 0.5244568856031065
+Overall accuracy: 0.5080301540478531
+confusion matrix:
+[[  59   50]
+ [4453 4591]]
+Feature: qC15
+evaluating predictions...
+AUC score: 0.49422040665614386
+Overall accuracy: 0.4751447612804545
+confusion matrix:
+[[  56   53]
+ [4751 4293]]
+Feature: qC16
+evaluating predictions...
+AUC score: 0.4753757369678919
+Overall accuracy: 0.4826832732437452
+confusion matrix:
+[[  51   58]
+ [4677 4367]]
+Feature: qC17
+evaluating predictions...
+AUC score: 0.5299793263514966
+Overall accuracy: 0.48312028843002297
+confusion matrix:
+[[  63   46]
+ [4685 4359]]
+Feature: qC18
+evaluating predictions...
+AUC score: 0.4644322963371732
+Overall accuracy: 0.4789686441603846
+confusion matrix:
+[[  49   60]
+ [4709 4335]]
+Feature: qC19
+evaluating predictions...
+AUC score: 0.49041028772687245
+Overall accuracy: 0.49448268327324374
+confusion matrix:
+[[  53   56]
+ [4571 4473]]
+Feature: qF1
+evaluating predictions...
+AUC score: 0.4932364302553469
+Overall accuracy: 0.21348191849666776
+confusion matrix:
+[[  85   24]
+ [7175 1869]]
+Feature: qF2
+evaluating predictions...
+AUC score: 0.5108014234182325
+Overall accuracy: 0.48104446629520375
+confusion matrix:
+[[  59   50]
+ [4700 4344]]
+Feature: qF3
+evaluating predictions...
+AUC score: 0.5449616350644555
+Overall accuracy: 0.5127280673003387
+confusion matrix:
+[[  63   46]
+ [4414 4630]]
+Feature: qN1
+evaluating predictions...
+AUC score: 0.5147175480525382
+Overall accuracy: 0.4350486179394734
+confusion matrix:
+[[  65   44]
+ [5127 3917]]
+Feature: qN2
+evaluating predictions...
+AUC score: 0.5682215184480359
+Overall accuracy: 0.4691358024691358
+confusion matrix:
+[[  73   36]
+ [4823 4221]]
+Feature: qN3
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C1-C2
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C1-C3
+evaluating predictions...
+AUC score: 0.5367195646969556
+Overall accuracy: 0.46957281765541353
+confusion matrix:
+[[  66   43]
+ [4812 4232]]
+Feature: C1-C4
+evaluating predictions...
+AUC score: 0.5188700299047673
+Overall accuracy: 0.479077897956954
+confusion matrix:
+[[  61   48]
+ [4720 4324]]
+Feature: C1-C5
+evaluating predictions...
+AUC score: 0.5353972830078434
+Overall accuracy: 0.49382716049382713
+confusion matrix:
+[[  63   46]
+ [4587 4457]]
+Feature: C1-C6
+evaluating predictions...
+AUC score: 0.5450123554974863
+Overall accuracy: 0.48596088714082813
+confusion matrix:
+[[  66   43]
+ [4662 4382]]
+Feature: C1-C7
+evaluating predictions...
+AUC score: 0.5119086504712942
+Overall accuracy: 0.4921883535452857
+confusion matrix:
+[[  58   51]
+ [4597 4447]]
+Feature: C1-C8
+evaluating predictions...
+AUC score: 0.4893583459458144
+Overall accuracy: 0.4834480498197312
+confusion matrix:
+[[  54   55]
+ [4673 4371]]
+Feature: C1-C9
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C1-C10
+evaluating predictions...
+AUC score: 0.49343576155715785
+Overall accuracy: 0.4109035288976292
+confusion matrix:
+[[  63   46]
+ [5346 3698]]
+Feature: C1-C11
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C1-C12
+evaluating predictions...
+AUC score: 0.4642694837471444
+Overall accuracy: 0.49655850540806296
+confusion matrix:
+[[  47   62]
+ [4546 4498]]
+Feature: C1-C13
+evaluating predictions...
+AUC score: 0.5203642538618538
+Overall accuracy: 0.49098656178302197
+confusion matrix:
+[[  60   49]
+ [4610 4434]]
+Feature: C1-C14
+evaluating predictions...
+AUC score: 0.5101425649931629
+Overall accuracy: 0.5066098546924506
+confusion matrix:
+[[  56   53]
+ [4463 4581]]
+Feature: C1-C15
+evaluating predictions...
+AUC score: 0.5368331784669446
+Overall accuracy: 0.48770894788593905
+confusion matrix:
+[[  64   45]
+ [4644 4400]]
+Feature: C1-C16
+evaluating predictions...
+AUC score: 0.5493230851007713
+Overall accuracy: 0.48552387195455043
+confusion matrix:
+[[  67   42]
+ [4667 4377]]
+Feature: C1-C17
+evaluating predictions...
+AUC score: 0.5021723561467079
+Overall accuracy: 0.4371244400742926
+confusion matrix:
+[[  62   47]
+ [5105 3939]]
+Feature: C1-C18
+evaluating predictions...
+AUC score: 0.4977972115934736
+Overall accuracy: 0.38369933355184094
+confusion matrix:
+[[  67   42]
+ [5599 3445]]
+Feature: C1-C19
+evaluating predictions...
+AUC score: 0.4925035199980523
+Overall accuracy: 0.4538402709494155
+confusion matrix:
+[[  58   51]
+ [4948 4096]]
+Feature: C1-F1
+evaluating predictions...
+AUC score: 0.4690777807984614
+Overall accuracy: 0.4971047743909101
+confusion matrix:
+[[  48   61]
+ [4542 4502]]
+Feature: C1-F2
+evaluating predictions...
+AUC score: 0.5025730475676509
+Overall accuracy: 0.5185185185185185
+confusion matrix:
+[[  53   56]
+ [4351 4693]]
+Feature: C1-F3
+evaluating predictions...
+AUC score: 0.5148250753705634
+Overall accuracy: 0.4173495028952256
+confusion matrix:
+[[  67   42]
+ [5291 3753]]
+Feature: C1-N1
+evaluating predictions...
+AUC score: 0.7441083144991458
+Overall accuracy: 0.9600131104555883
+confusion matrix:
+[[  57   52]
+ [ 314 8730]]
+Feature: C1-N2
+evaluating predictions...
+AUC score: 0.7376429809007138
+Overall accuracy: 0.9651480388943516
+confusion matrix:
+[[  55   54]
+ [ 265 8779]]
+Feature: C1-N3
+evaluating predictions...
+AUC score: 0.735099858388551
+Overall accuracy: 0.9601223642521578
+confusion matrix:
+[[  55   54]
+ [ 311 8733]]
+Feature: C2-C3
+evaluating predictions...
+AUC score: 0.5259465447212202
+Overall accuracy: 0.49306238391784113
+confusion matrix:
+[[  61   48]
+ [4592 4452]]
+Feature: C2-C4
+evaluating predictions...
+AUC score: 0.5126288806203312
+Overall accuracy: 0.5025674642193816
+confusion matrix:
+[[  57   52]
+ [4501 4543]]
+Feature: C2-C5
+evaluating predictions...
+AUC score: 0.500463077553571
+Overall accuracy: 0.4606140063367202
+confusion matrix:
+[[  59   50]
+ [4887 4157]]
+Feature: C2-C6
+evaluating predictions...
+AUC score: 0.506323316385946
+Overall accuracy: 0.47219490877307985
+confusion matrix:
+[[  59   50]
+ [4781 4263]]
+Feature: C2-C7
+evaluating predictions...
+AUC score: 0.48123445418727606
+Overall accuracy: 0.4853053643614116
+confusion matrix:
+[[  52   57]
+ [4654 4390]]
+Feature: C2-C8
+evaluating predictions...
+AUC score: 0.4728326144557292
+Overall accuracy: 0.4776575986015514
+confusion matrix:
+[[  51   58]
+ [4723 4321]]
+Feature: C2-C9
+evaluating predictions...
+AUC score: 0.5319559016267057
+Overall accuracy: 0.40642412323828253
+confusion matrix:
+[[  72   37]
+ [5396 3648]]
+Feature: C2-C10
+evaluating predictions...
+AUC score: 0.6002793681451334
+Overall accuracy: 0.48770894788593905
+confusion matrix:
+[[  78   31]
+ [4658 4386]]
+Feature: C2-C11
+evaluating predictions...
+AUC score: 0.5952514516187934
+Overall accuracy: 0.4956844750355075
+confusion matrix:
+[[  76   33]
+ [4583 4461]]
+Feature: C2-C12
+evaluating predictions...
+AUC score: 0.5281609988273436
+Overall accuracy: 0.515350158418005
+confusion matrix:
+[[  59   50]
+ [4386 4658]]
+Feature: C2-C13
+evaluating predictions...
+AUC score: 0.5996757949920674
+Overall accuracy: 0.5133835900797553
+confusion matrix:
+[[  75   34]
+ [4420 4624]]
+Feature: C2-C14
+evaluating predictions...
+AUC score: 0.5929877986926301
+Overall accuracy: 0.5091226920135474
+confusion matrix:
+[[  74   35]
+ [4458 4586]]
+Feature: C2-C15
+evaluating predictions...
+AUC score: 0.6723546250948472
+Overall accuracy: 0.5316289741068502
+confusion matrix:
+[[  89   20]
+ [4267 4777]]
+Feature: C2-C16
+evaluating predictions...
+AUC score: 0.6823612593274876
+Overall accuracy: 0.5514039112859171
+confusion matrix:
+[[  89   20]
+ [4086 4958]]
+Feature: C2-C17
+evaluating predictions...
+AUC score: 0.6759557758400319
+Overall accuracy: 0.5835245274773299
+confusion matrix:
+[[  84   25]
+ [3787 5257]]
+Feature: C2-C18
+evaluating predictions...
+AUC score: 0.6286528855868759
+Overall accuracy: 0.6154266360756037
+confusion matrix:
+[[  70   39]
+ [3481 5563]]
+Feature: C2-C19
+evaluating predictions...
+AUC score: 0.48394647574143135
+Overall accuracy: 0.5085764230307003
+confusion matrix:
+[[  50   59]
+ [4439 4605]]
+Feature: C2-F1
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C2-F2
+evaluating predictions...
+AUC score: 0.5121942065092575
+Overall accuracy: 0.5464874904402928
+confusion matrix:
+[[  52   57]
+ [4094 4950]]
+Feature: C2-F3
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C2-N1
+evaluating predictions...
+AUC score: 0.8076113110623293
+Overall accuracy: 0.969081175570851
+confusion matrix:
+[[  70   39]
+ [ 244 8800]]
+Feature: C2-N2
+evaluating predictions...
+AUC score: 0.7999849867518228
+Overall accuracy: 0.9719217742816563
+confusion matrix:
+[[  68   41]
+ [ 216 8828]]
+Feature: C2-N3
+evaluating predictions...
+AUC score: 0.7569867396499885
+Overall accuracy: 0.967551622418879
+confusion matrix:
+[[  59   50]
+ [ 247 8797]]
+Feature: C3-C4
+evaluating predictions...
+AUC score: 0.4909357514130713
+Overall accuracy: 0.3343166175024582
+confusion matrix:
+[[  71   38]
+ [6055 2989]]
+Feature: C3-C5
+evaluating predictions...
+AUC score: 0.6364623106606235
+Overall accuracy: 0.389052769583743
+confusion matrix:
+[[  97   12]
+ [5580 3464]]
+Feature: C3-C6
+evaluating predictions...
+AUC score: 0.6188354385694403
+Overall accuracy: 0.40795367639025454
+confusion matrix:
+[[  91   18]
+ [5401 3643]]
+Feature: C3-C7
+evaluating predictions...
+AUC score: 0.5208648645358674
+Overall accuracy: 0.5098874685895335
+confusion matrix:
+[[  58   51]
+ [4435 4609]]
+Feature: C3-C8
+evaluating predictions...
+AUC score: 0.6159174920571803
+Overall accuracy: 0.4738337157216213
+confusion matrix:
+[[  83   26]
+ [4790 4254]]
+Feature: C3-C9
+evaluating predictions...
+AUC score: 0.6375172956676635
+Overall accuracy: 0.4180050256746422
+confusion matrix:
+[[  94   15]
+ [5312 3732]]
+Feature: C3-C10
+evaluating predictions...
+AUC score: 0.5986776168700217
+Overall accuracy: 0.4934993991041189
+confusion matrix:
+[[  77   32]
+ [4604 4440]]
+Feature: C3-C11
+evaluating predictions...
+AUC score: 0.59818004942199
+Overall accuracy: 0.492516114934994
+confusion matrix:
+[[  77   32]
+ [4613 4431]]
+Feature: C3-C12
+evaluating predictions...
+AUC score: 0.5032202402931235
+Overall accuracy: 0.09887468589533487
+confusion matrix:
+[[ 100    9]
+ [8239  805]]
+Feature: C3-C13
+evaluating predictions...
+AUC score: 0.597571911429951
+Overall accuracy: 0.49131432317273027
+confusion matrix:
+[[  77   32]
+ [4624 4420]]
+Feature: C3-C14
+evaluating predictions...
+AUC score: 0.5898334949624466
+Overall accuracy: 0.4849776029717033
+confusion matrix:
+[[  76   33]
+ [4681 4363]]
+Feature: C3-C15
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C3-C16
+evaluating predictions...
+AUC score: 0.5213593887579174
+Overall accuracy: 0.49295313012127173
+confusion matrix:
+[[  60   49]
+ [4592 4452]]
+Feature: C3-C17
+evaluating predictions...
+AUC score: 0.5255428100742954
+Overall accuracy: 0.39375068283622855
+confusion matrix:
+[[  72   37]
+ [5512 3532]]
+Feature: C3-C18
+evaluating predictions...
+AUC score: 0.501701163323852
+Overall accuracy: 0.266032994646564
+confusion matrix:
+[[  81   28]
+ [6690 2354]]
+Feature: C3-C19
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C3-F1
+evaluating predictions...
+AUC score: 0.5028433874757049
+Overall accuracy: 0.48322954222659237
+confusion matrix:
+[[  57   52]
+ [4678 4366]]
+Feature: C3-F2
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C3-F3
+evaluating predictions...
+AUC score: 0.5415785821813032
+Overall accuracy: 0.4433519064787501
+confusion matrix:
+[[  70   39]
+ [5056 3988]]
+Feature: C3-N1
+evaluating predictions...
+AUC score: 0.6886140743115209
+Overall accuracy: 0.9219927892494264
+confusion matrix:
+[[  49   60]
+ [ 654 8390]]
+Feature: C3-N2
+evaluating predictions...
+AUC score: 0.6971848130850602
+Overall accuracy: 0.9478859390363815
+confusion matrix:
+[[  48   61]
+ [ 416 8628]]
+Feature: C3-N3
+evaluating predictions...
+AUC score: 0.7153046877853024
+Overall accuracy: 0.9030918824429149
+confusion matrix:
+[[  57   52]
+ [ 835 8209]]
+Feature: C4-C5
+evaluating predictions...
+AUC score: 0.6361336422545841
+Overall accuracy: 0.4063148694417131
+confusion matrix:
+[[  95   14]
+ [5420 3624]]
+Feature: C4-C6
+evaluating predictions...
+AUC score: 0.6232628251686962
+Overall accuracy: 0.443570414071889
+confusion matrix:
+[[  88   21]
+ [5072 3972]]
+Feature: C4-C7
+evaluating predictions...
+AUC score: 0.4826688280333863
+Overall accuracy: 0.4702283404348301
+confusion matrix:
+[[  54   55]
+ [4794 4250]]
+Feature: C4-C8
+evaluating predictions...
+AUC score: 0.6380701483876988
+Overall accuracy: 0.4190975636403365
+confusion matrix:
+[[  94   15]
+ [5302 3742]]
+Feature: C4-C9
+evaluating predictions...
+AUC score: 0.6248001614938589
+Overall accuracy: 0.3839178411449798
+confusion matrix:
+[[  95   14]
+ [5625 3419]]
+Feature: C4-C10
+evaluating predictions...
+AUC score: 0.4817918717462842
+Overall accuracy: 0.5132743362831859
+confusion matrix:
+[[  49   60]
+ [4395 4649]]
+Feature: C4-C11
+evaluating predictions...
+AUC score: 0.5300929401214856
+Overall accuracy: 0.5012564186605485
+confusion matrix:
+[[  61   48]
+ [4517 4527]]
+Feature: C4-C12
+evaluating predictions...
+AUC score: 0.46796598890642693
+Overall accuracy: 0.45908445318474816
+confusion matrix:
+[[  52   57]
+ [4894 4150]]
+Feature: C4-C13
+evaluating predictions...
+AUC score: 0.47956524473623346
+Overall accuracy: 0.41931607123347536
+confusion matrix:
+[[  59   50]
+ [5265 3779]]
+Feature: C4-C14
+evaluating predictions...
+AUC score: 0.541088622798226
+Overall accuracy: 0.4871626789030919
+confusion matrix:
+[[  65   44]
+ [4650 4394]]
+Feature: C4-C15
+evaluating predictions...
+AUC score: 0.6919225681581179
+Overall accuracy: 0.5523871954550421
+confusion matrix:
+[[  91   18]
+ [4079 4965]]
+Feature: C4-C16
+evaluating predictions...
+AUC score: 0.6742419324079222
+Overall accuracy: 0.5801376597836775
+confusion matrix:
+[[  84   25]
+ [3818 5226]]
+Feature: C4-C17
+evaluating predictions...
+AUC score: 0.6692616930886309
+Overall accuracy: 0.5434283841363488
+confusion matrix:
+[[  87   22]
+ [4157 4887]]
+Feature: C4-C18
+evaluating predictions...
+AUC score: 0.6482101773592102
+Overall accuracy: 0.5734731781929422
+confusion matrix:
+[[  79   30]
+ [3874 5170]]
+Feature: C4-C19
+evaluating predictions...
+AUC score: 0.49145614305596697
+Overall accuracy: 0.46968207145198293
+confusion matrix:
+[[  56   53]
+ [4801 4243]]
+Feature: C4-F1
+evaluating predictions...
+AUC score: 0.5016215322439936
+Overall accuracy: 0.12258275975090134
+confusion matrix:
+[[  97   12]
+ [8019 1025]]
+Feature: C4-F2
+evaluating predictions...
+AUC score: 0.4917954627529427
+Overall accuracy: 0.5151316508248661
+confusion matrix:
+[[  51   58]
+ [4380 4664]]
+Feature: C4-F3
+evaluating predictions...
+AUC score: 0.4985453379806776
+Overall accuracy: 0.23292909428602643
+confusion matrix:
+[[  84   25]
+ [6996 2048]]
+Feature: C4-N1
+evaluating predictions...
+AUC score: 0.7417295261900028
+Overall accuracy: 0.9463563858844095
+confusion matrix:
+[[  58   51]
+ [ 440 8604]]
+Feature: C4-N2
+evaluating predictions...
+AUC score: 0.7268085892010112
+Overall accuracy: 0.9526931060854364
+confusion matrix:
+[[  54   55]
+ [ 378 8666]]
+Feature: C4-N3
+evaluating predictions...
+AUC score: 0.7166929060373546
+Overall accuracy: 0.9416584726319239
+confusion matrix:
+[[  53   56]
+ [ 478 8566]]
+Feature: C5-C6
+evaluating predictions...
+AUC score: 0.5225112497920462
+Overall accuracy: 0.4414945919370698
+confusion matrix:
+[[  66   43]
+ [5069 3975]]
+Feature: C5-C7
+evaluating predictions...
+AUC score: 0.49560253845623237
+Overall accuracy: 0.4778761061946903
+confusion matrix:
+[[  56   53]
+ [4726 4318]]
+Feature: C5-C8
+evaluating predictions...
+AUC score: 0.48757856595076465
+Overall accuracy: 0.4172402490986562
+confusion matrix:
+[[  61   48]
+ [5286 3758]]
+Feature: C5-C9
+evaluating predictions...
+AUC score: 0.4615021769209856
+Overall accuracy: 0.47317819294220476
+confusion matrix:
+[[  49   60]
+ [4762 4282]]
+Feature: C5-C10
+evaluating predictions...
+AUC score: 0.5185936035447496
+Overall accuracy: 0.47853162897410684
+confusion matrix:
+[[  61   48]
+ [4725 4319]]
+Feature: C5-C11
+evaluating predictions...
+AUC score: 0.5964017910399312
+Overall accuracy: 0.43526712553261226
+confusion matrix:
+[[  83   26]
+ [5143 3901]]
+Feature: C5-C12
+evaluating predictions...
+AUC score: 0.6382360042037095
+Overall accuracy: 0.4194253250300448
+confusion matrix:
+[[  94   15]
+ [5299 3745]]
+Feature: C5-C13
+evaluating predictions...
+AUC score: 0.6756854359319778
+Overall accuracy: 0.618813503769256
+confusion matrix:
+[[  80   29]
+ [3460 5584]]
+Feature: C5-C14
+evaluating predictions...
+AUC score: 0.6860851535206067
+Overall accuracy: 0.6751884627990823
+confusion matrix:
+[[  76   33]
+ [2940 6104]]
+Feature: C5-C15
+evaluating predictions...
+AUC score: 0.7727912265823761
+Overall accuracy: 0.6315961979678794
+confusion matrix:
+[[ 100    9]
+ [3363 5681]]
+Feature: C5-C16
+evaluating predictions...
+AUC score: 0.768976542814132
+Overall accuracy: 0.6240576860045887
+confusion matrix:
+[[ 100    9]
+ [3432 5612]]
+Feature: C5-C17
+evaluating predictions...
+AUC score: 0.5600575575474034
+Overall accuracy: 0.56047197640118
+confusion matrix:
+[[  61   48]
+ [3975 5069]]
+Feature: C5-C18
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C5-C19
+evaluating predictions...
+AUC score: 0.6385063441117634
+Overall accuracy: 0.38413634873811864
+confusion matrix:
+[[  98   11]
+ [5626 3418]]
+Feature: C5-F1
+evaluating predictions...
+AUC score: 0.6153169621300959
+Overall accuracy: 0.5174259805528242
+confusion matrix:
+[[  78   31]
+ [4386 4658]]
+Feature: C5-F2
+evaluating predictions...
+AUC score: 0.6060351228854651
+Overall accuracy: 0.5349065880039331
+confusion matrix:
+[[  74   35]
+ [4222 4822]]
+Feature: C5-F3
+evaluating predictions...
+AUC score: 0.6297940953300684
+Overall accuracy: 0.5012564186605485
+confusion matrix:
+[[  83   26]
+ [4539 4505]]
+Feature: C5-N1
+evaluating predictions...
+AUC score: 0.829607241254783
+Overall accuracy: 0.967770130012018
+confusion matrix:
+[[  75   34]
+ [ 261 8783]]
+Feature: C5-N2
+evaluating predictions...
+AUC score: 0.8050697101631575
+Overall accuracy: 0.9730143122473506
+confusion matrix:
+[[  69   40]
+ [ 207 8837]]
+Feature: C5-N3
+evaluating predictions...
+AUC score: 0.7770476853223183
+Overall accuracy: 0.9624166939801158
+confusion matrix:
+[[  64   45]
+ [ 299 8745]]
+Feature: C6-C7
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C6-C8
+evaluating predictions...
+AUC score: 0.4962461807513927
+Overall accuracy: 0.3627226046105102
+confusion matrix:
+[[  69   40]
+ [5793 3251]]
+Feature: C6-C9
+evaluating predictions...
+AUC score: 0.4968188144403102
+Overall accuracy: 0.48027968971921775
+confusion matrix:
+[[  56   53]
+ [4704 4340]]
+Feature: C6-C10
+evaluating predictions...
+AUC score: 0.4779726231390673
+Overall accuracy: 0.47885939036381514
+confusion matrix:
+[[  52   57]
+ [4713 4331]]
+Feature: C6-C11
+evaluating predictions...
+AUC score: 0.5127901715973691
+Overall accuracy: 0.4760187916530099
+confusion matrix:
+[[  60   49]
+ [4747 4297]]
+Feature: C6-C12
+evaluating predictions...
+AUC score: 0.6336011710333578
+Overall accuracy: 0.46400087403037255
+confusion matrix:
+[[  88   21]
+ [4885 4159]]
+Feature: C6-C13
+evaluating predictions...
+AUC score: 0.6986841090854498
+Overall accuracy: 0.6642630831421392
+confusion matrix:
+[[  80   29]
+ [3044 6000]]
+Feature: C6-C14
+evaluating predictions...
+AUC score: 0.6870802884166703
+Overall accuracy: 0.677155031137332
+confusion matrix:
+[[  76   33]
+ [2922 6122]]
+Feature: C6-C15
+evaluating predictions...
+AUC score: 0.7606883168525739
+Overall accuracy: 0.634546050475254
+confusion matrix:
+[[  97   12]
+ [3333 5711]]
+Feature: C6-C16
+evaluating predictions...
+AUC score: 0.7724610365633457
+Overall accuracy: 0.6398994865071561
+confusion matrix:
+[[  99   10]
+ [3286 5758]]
+Feature: C6-C17
+evaluating predictions...
+AUC score: 0.5825601848658343
+Overall accuracy: 0.6138970829236315
+confusion matrix:
+[[  60   49]
+ [3485 5559]]
+Feature: C6-C18
+evaluating predictions...
+AUC score: 0.5234678371590065
+Overall accuracy: 0.5418988309843767
+confusion matrix:
+[[  55   54]
+ [4139 4905]]
+Feature: C6-C19
+evaluating predictions...
+AUC score: 0.6417712183859541
+Overall accuracy: 0.4084999453731017
+confusion matrix:
+[[  96   13]
+ [5401 3643]]
+Feature: C6-F1
+evaluating predictions...
+AUC score: 0.6136092051499499
+Overall accuracy: 0.5498743581339451
+confusion matrix:
+[[  74   35]
+ [4085 4959]]
+Feature: C6-F2
+evaluating predictions...
+AUC score: 0.5854826962170673
+Overall accuracy: 0.5748934775483449
+confusion matrix:
+[[  65   44]
+ [3847 5197]]
+Feature: C6-F3
+evaluating predictions...
+AUC score: 0.6220617653145275
+Overall accuracy: 0.5307549437342948
+confusion matrix:
+[[  78   31]
+ [4264 4780]]
+Feature: C6-N1
+evaluating predictions...
+AUC score: 0.8851491586494569
+Overall accuracy: 0.9611056484212827
+confusion matrix:
+[[  88   21]
+ [ 335 8709]]
+Feature: C6-N2
+evaluating predictions...
+AUC score: 0.8673549091292722
+Overall accuracy: 0.9707199825193925
+confusion matrix:
+[[  83   26]
+ [ 242 8802]]
+Feature: C6-N3
+evaluating predictions...
+AUC score: 0.8424273379076402
+Overall accuracy: 0.9572817655413526
+confusion matrix:
+[[  79   30]
+ [ 361 8683]]
+Feature: C7-C8
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C7-C9
+evaluating predictions...
+AUC score: 0.5350518768589039
+Overall accuracy: 0.41254233584617067
+confusion matrix:
+[[  72   37]
+ [5340 3704]]
+Feature: C7-C10
+evaluating predictions...
+AUC score: 0.5989525216170485
+Overall accuracy: 0.4850868567682727
+confusion matrix:
+[[  78   31]
+ [4682 4362]]
+Feature: C7-C11
+evaluating predictions...
+AUC score: 0.5938140345467013
+Overall accuracy: 0.4928438763247023
+confusion matrix:
+[[  76   33]
+ [4609 4435]]
+Feature: C7-C12
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C7-C13
+evaluating predictions...
+AUC score: 0.6008337424781598
+Overall accuracy: 0.49776029717032666
+confusion matrix:
+[[  77   32]
+ [4565 4479]]
+Feature: C7-C14
+evaluating predictions...
+AUC score: 0.5990646137740465
+Overall accuracy: 0.4942641756801049
+confusion matrix:
+[[  77   32]
+ [4597 4447]]
+Feature: C7-C15
+evaluating predictions...
+AUC score: 0.6894869729639803
+Overall accuracy: 0.5296624057686005
+confusion matrix:
+[[  93   16]
+ [4289 4755]]
+Feature: C7-C16
+evaluating predictions...
+AUC score: 0.6877776943708434
+Overall accuracy: 0.5531519720310281
+confusion matrix:
+[[  90   19]
+ [4071 4973]]
+Feature: C7-C17
+evaluating predictions...
+AUC score: 0.6408648442476942
+Overall accuracy: 0.6037364798426745
+confusion matrix:
+[[  74   35]
+ [3592 5452]]
+Feature: C7-C18
+evaluating predictions...
+AUC score: 0.6144521787469213
+Overall accuracy: 0.6321424669507265
+confusion matrix:
+[[  65   44]
+ [3323 5721]]
+Feature: C7-C19
+evaluating predictions...
+AUC score: 0.4792517924601033
+Overall accuracy: 0.5261662842783786
+confusion matrix:
+[[  47   62]
+ [4275 4769]]
+Feature: C7-F1
+evaluating predictions...
+AUC score: 0.5374813856010776
+Overall accuracy: 0.39943188025783893
+confusion matrix:
+[[  74   35]
+ [5462 3582]]
+Feature: C7-F2
+evaluating predictions...
+AUC score: 0.5281102783943128
+Overall accuracy: 0.5421173385775155
+confusion matrix:
+[[  56   53]
+ [4138 4906]]
+Feature: C7-F3
+evaluating predictions...
+AUC score: 0.47551572536305686
+Overall accuracy: 0.330711242215667
+confusion matrix:
+[[  68   41]
+ [6085 2959]]
+Feature: C7-N1
+evaluating predictions...
+AUC score: 0.8796206314491032
+Overall accuracy: 0.9501802687643396
+confusion matrix:
+[[  88   21]
+ [ 435 8609]]
+Feature: C7-N2
+evaluating predictions...
+AUC score: 0.8935509983810038
+Overall accuracy: 0.9687534141811428
+confusion matrix:
+[[  89   20]
+ [ 266 8778]]
+Feature: C7-N3
+evaluating predictions...
+AUC score: 0.8695079915114283
+Overall accuracy: 0.9570632579482137
+confusion matrix:
+[[  85   24]
+ [ 369 8675]]
+Feature: C8-C9
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C8-C10
+evaluating predictions...
+AUC score: 0.6958123181672475
+Overall accuracy: 0.6764995083579154
+confusion matrix:
+[[  78   31]
+ [2930 6114]]
+Feature: C8-C11
+evaluating predictions...
+AUC score: 0.6959213670982637
+Overall accuracy: 0.6677592046323609
+confusion matrix:
+[[  79   30]
+ [3011 6033]]
+Feature: C8-C12
+evaluating predictions...
+AUC score: 0.6139764210850928
+Overall accuracy: 0.43417458756691796
+confusion matrix:
+[[  87   22]
+ [5157 3887]]
+Feature: C8-C13
+evaluating predictions...
+AUC score: 0.5100781500432138
+Overall accuracy: 0.4527477329837212
+confusion matrix:
+[[  62   47]
+ [4962 4082]]
+Feature: C8-C14
+evaluating predictions...
+AUC score: 0.4795728528011881
+Overall accuracy: 0.464110127826942
+confusion matrix:
+[[  54   55]
+ [4850 4194]]
+Feature: C8-C15
+evaluating predictions...
+AUC score: 0.6410200487727684
+Overall accuracy: 0.5413525620015296
+confusion matrix:
+[[  81   28]
+ [4170 4874]]
+Feature: C8-C16
+evaluating predictions...
+AUC score: 0.5877280897873394
+Overall accuracy: 0.45394952474598493
+confusion matrix:
+[[  79   30]
+ [4968 4076]]
+Feature: C8-C17
+evaluating predictions...
+AUC score: 0.749526778359823
+Overall accuracy: 0.6483120288430023
+confusion matrix:
+[[  93   16]
+ [3203 5841]]
+Feature: C8-C18
+evaluating predictions...
+AUC score: 0.7410726965822543
+Overall accuracy: 0.6584726319239593
+confusion matrix:
+[[  90   19]
+ [3107 5937]]
+Feature: C8-C19
+evaluating predictions...
+AUC score: 0.5784477721556995
+Overall accuracy: 0.48038894351578715
+confusion matrix:
+[[  74   35]
+ [4721 4323]]
+Feature: C8-F1
+evaluating predictions...
+AUC score: 0.6190149889023693
+Overall accuracy: 0.48891073964820275
+confusion matrix:
+[[  82   27]
+ [4651 4393]]
+Feature: C8-F2
+evaluating predictions...
+AUC score: 0.5981186776980227
+Overall accuracy: 0.45657161586365125
+confusion matrix:
+[[  81   28]
+ [4946 4098]]
+Feature: C8-F3
+evaluating predictions...
+AUC score: 0.5675088963639536
+Overall accuracy: 0.5035507483885066
+confusion matrix:
+[[  69   40]
+ [4504 4540]]
+Feature: C8-N1
+evaluating predictions...
+AUC score: 0.8644187032611209
+Overall accuracy: 0.9290942860264394
+confusion matrix:
+[[  87   22]
+ [ 627 8417]]
+Feature: C8-N2
+evaluating predictions...
+AUC score: 0.8963690256401933
+Overall accuracy: 0.9653665464874904
+confusion matrix:
+[[  90   19]
+ [ 298 8746]]
+Feature: C8-N3
+evaluating predictions...
+AUC score: 0.8757521840218463
+Overall accuracy: 0.9514913143231727
+confusion matrix:
+[[  87   22]
+ [ 422 8622]]
+Feature: C9-C10
+evaluating predictions...
+AUC score: 0.7070874704299875
+Overall accuracy: 0.6808696602206926
+confusion matrix:
+[[  80   29]
+ [2892 6152]]
+Feature: C9-C11
+evaluating predictions...
+AUC score: 0.6854126005786187
+Overall accuracy: 0.6201245493280891
+confusion matrix:
+[[  82   27]
+ [3450 5594]]
+Feature: C9-C12
+evaluating predictions...
+AUC score: 0.6325938632333667
+Overall accuracy: 0.39036381514257623
+confusion matrix:
+[[  96   13]
+ [5567 3477]]
+Feature: C9-C13
+evaluating predictions...
+AUC score: 0.5651716988098958
+Overall accuracy: 0.40937397574565715
+confusion matrix:
+[[  79   30]
+ [5376 3668]]
+Feature: C9-C14
+evaluating predictions...
+AUC score: 0.5031152489967499
+Overall accuracy: 0.45689937725335955
+confusion matrix:
+[[  60   49]
+ [4922 4122]]
+Feature: C9-C15
+evaluating predictions...
+AUC score: 0.567611858843006
+Overall accuracy: 0.4589751993881787
+confusion matrix:
+[[  74   35]
+ [4917 4127]]
+Feature: C9-C16
+evaluating predictions...
+AUC score: 0.4758149759179384
+Overall accuracy: 0.465639680978914
+confusion matrix:
+[[  53   56]
+ [4835 4209]]
+Feature: C9-C17
+evaluating predictions...
+AUC score: 0.7679844511440501
+Overall accuracy: 0.6400087403037256
+confusion matrix:
+[[  98   11]
+ [3284 5760]]
+Feature: C9-C18
+evaluating predictions...
+AUC score: 0.7591418508494658
+Overall accuracy: 0.6404457554900033
+confusion matrix:
+[[  96   13]
+ [3278 5766]]
+Feature: C9-C19
+evaluating predictions...
+AUC score: 0.6261883797459108
+Overall accuracy: 0.42248443133398883
+confusion matrix:
+[[  91   18]
+ [5268 3776]]
+Feature: C9-F1
+evaluating predictions...
+AUC score: 0.6174041079493121
+Overall accuracy: 0.44094832295422265
+confusion matrix:
+[[  87   22]
+ [5095 3949]]
+Feature: C9-F2
+evaluating predictions...
+AUC score: 0.6129797645760381
+Overall accuracy: 0.4232492079099749
+confusion matrix:
+[[  88   21]
+ [5258 3786]]
+Feature: C9-F3
+evaluating predictions...
+AUC score: 0.5771716460606454
+Overall accuracy: 0.4509996722386103
+confusion matrix:
+[[  77   32]
+ [4993 4051]]
+Feature: C9-N1
+evaluating predictions...
+AUC score: 0.8483935824450494
+Overall accuracy: 0.9422047416147711
+confusion matrix:
+[[  82   27]
+ [ 502 8542]]
+Feature: C9-N2
+evaluating predictions...
+AUC score: 0.8803976684831344
+Overall accuracy: 0.9696274445536982
+confusion matrix:
+[[  86   23]
+ [ 255 8789]]
+Feature: C9-N3
+evaluating predictions...
+AUC score: 0.8523756436422952
+Overall accuracy: 0.9590298262864635
+confusion matrix:
+[[  81   28]
+ [ 347 8697]]
+Feature: C10-C11
+evaluating predictions...
+AUC score: 0.4880837414637511
+Overall accuracy: 0.4630175898612477
+confusion matrix:
+[[  56   53]
+ [4862 4182]]
+Feature: C10-C12
+evaluating predictions...
+AUC score: 0.5020709152806463
+Overall accuracy: 0.49065880039331367
+confusion matrix:
+[[  56   53]
+ [4609 4435]]
+Feature: C10-C13
+evaluating predictions...
+AUC score: 0.4943218475222054
+Overall accuracy: 0.42161040096143343
+confusion matrix:
+[[  62   47]
+ [5247 3797]]
+Feature: C10-C14
+evaluating predictions...
+AUC score: 0.4857140828325536
+Overall accuracy: 0.5031137332022287
+confusion matrix:
+[[  51   58]
+ [4490 4554]]
+Feature: C10-C15
+evaluating predictions...
+AUC score: 0.6693352377165256
+Overall accuracy: 0.6510433737572381
+confusion matrix:
+[[  75   34]
+ [3160 5884]]
+Feature: C10-C16
+evaluating predictions...
+AUC score: 0.6748607216908975
+Overall accuracy: 0.6440511307767945
+confusion matrix:
+[[  77   32]
+ [3226 5818]]
+Feature: C10-C17
+evaluating predictions...
+AUC score: 0.6077687472864568
+Overall accuracy: 0.6547580028405987
+confusion matrix:
+[[  61   48]
+ [3112 5932]]
+Feature: C10-C18
+evaluating predictions...
+AUC score: 0.5267296682072153
+Overall accuracy: 0.5483448049819731
+confusion matrix:
+[[  55   54]
+ [4080 4964]]
+Feature: C10-C19
+evaluating predictions...
+AUC score: 0.6033753433773316
+Overall accuracy: 0.49382716049382713
+confusion matrix:
+[[  78   31]
+ [4602 4442]]
+Feature: C10-F1
+evaluating predictions...
+AUC score: 0.5067027052250161
+Overall accuracy: 0.42816562875559927
+confusion matrix:
+[[  64   45]
+ [5189 3855]]
+Feature: C10-F2
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C10-F3
+evaluating predictions...
+AUC score: 0.49250047677207054
+Overall accuracy: 0.4359226483120288
+confusion matrix:
+[[  60   49]
+ [5114 3930]]
+Feature: C10-N1
+evaluating predictions...
+AUC score: 0.6804780096490552
+Overall accuracy: 0.8521796132415601
+confusion matrix:
+[[  55   54]
+ [1299 7745]]
+Feature: C10-N2
+evaluating predictions...
+AUC score: 0.7055805663646434
+Overall accuracy: 0.9196984595214683
+confusion matrix:
+[[  53   56]
+ [ 679 8365]]
+Feature: C10-N3
+evaluating predictions...
+AUC score: 0.6603004069807547
+Overall accuracy: 0.8212607888124113
+confusion matrix:
+[[  54   55]
+ [1581 7463]]
+Feature: C11-C12
+evaluating predictions...
+AUC score: 0.5036254965530393
+Overall accuracy: 0.20714519829564076
+confusion matrix:
+[[  88   21]
+ [7236 1808]]
+Feature: C11-C13
+evaluating predictions...
+AUC score: 0.508702104695089
+Overall accuracy: 0.48585163334425874
+confusion matrix:
+[[  58   51]
+ [4655 4389]]
+Feature: C11-C14
+evaluating predictions...
+AUC score: 0.4924005575189998
+Overall accuracy: 0.49841581994974327
+confusion matrix:
+[[  53   56]
+ [4535 4509]]
+Feature: C11-C15
+evaluating predictions...
+AUC score: 0.6748592000779065
+Overall accuracy: 0.6350923194581012
+confusion matrix:
+[[  78   31]
+ [3309 5735]]
+Feature: C11-C16
+evaluating predictions...
+AUC score: 0.6849195979695596
+Overall accuracy: 0.6460176991150443
+confusion matrix:
+[[  79   30]
+ [3210 5834]]
+Feature: C11-C17
+evaluating predictions...
+AUC score: 0.6462305588580194
+Overall accuracy: 0.632251720747296
+confusion matrix:
+[[  72   37]
+ [3329 5715]]
+Feature: C11-C18
+evaluating predictions...
+AUC score: 0.6214718866783797
+Overall accuracy: 0.6370588877963509
+confusion matrix:
+[[  66   43]
+ [3279 5765]]
+Feature: C11-C19
+evaluating predictions...
+AUC score: 0.6028240122702873
+Overall accuracy: 0.5016934338468262
+confusion matrix:
+[[  77   32]
+ [4529 4515]]
+Feature: C11-F1
+evaluating predictions...
+AUC score: 0.4994111357725128
+Overall accuracy: 0.4495793728832077
+confusion matrix:
+[[  60   49]
+ [4989 4055]]
+Feature: C11-F2
+evaluating predictions...
+AUC score: 0.4871915690467399
+Overall accuracy: 0.41647547252267014
+confusion matrix:
+[[  61   48]
+ [5293 3751]]
+Feature: C11-F3
+evaluating predictions...
+AUC score: 0.49637348903830003
+Overall accuracy: 0.46148803670927563
+confusion matrix:
+[[  58   51]
+ [4878 4166]]
+Feature: C11-N1
+evaluating predictions...
+AUC score: 0.6174051223579726
+Overall accuracy: 0.7723150879493063
+confusion matrix:
+[[  50   59]
+ [2025 7019]]
+Feature: C11-N2
+evaluating predictions...
+AUC score: 0.6472038839678798
+Overall accuracy: 0.8312028843002295
+confusion matrix:
+[[  50   59]
+ [1486 7558]]
+Feature: C11-N3
+evaluating predictions...
+AUC score: 0.5746635206472739
+Overall accuracy: 0.6520266579263629
+confusion matrix:
+[[  54   55]
+ [3130 5914]]
+Feature: C12-C13
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C12-C14
+evaluating predictions...
+AUC score: 0.4863759844836052
+Overall accuracy: 0.49546596744236865
+confusion matrix:
+[[  52   57]
+ [4561 4483]]
+Feature: C12-C15
+evaluating predictions...
+AUC score: 0.6662808532394127
+Overall accuracy: 0.5644051130776795
+confusion matrix:
+[[  84   25]
+ [3962 5082]]
+Feature: C12-C16
+evaluating predictions...
+AUC score: 0.672199420569773
+Overall accuracy: 0.5940128919479952
+confusion matrix:
+[[  82   27]
+ [3689 5355]]
+Feature: C12-C17
+evaluating predictions...
+AUC score: 0.6959015861293817
+Overall accuracy: 0.5512946574893478
+confusion matrix:
+[[  92   17]
+ [4090 4954]]
+Feature: C12-C18
+evaluating predictions...
+AUC score: 0.6930343600501524
+Overall accuracy: 0.590407516661204
+confusion matrix:
+[[  87   22]
+ [3727 5317]]
+Feature: C12-C19
+evaluating predictions...
+AUC score: 0.5202384671879374
+Overall accuracy: 0.40117994100294985
+confusion matrix:
+[[  70   39]
+ [5442 3602]]
+Feature: C12-F1
+evaluating predictions...
+AUC score: 0.4798325414183056
+Overall accuracy: 0.3661094723041626
+confusion matrix:
+[[  65   44]
+ [5758 3286]]
+Feature: C12-F2
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C12-F3
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C12-N1
+evaluating predictions...
+AUC score: 0.6370882008042231
+Overall accuracy: 0.820168250846717
+confusion matrix:
+[[  49   60]
+ [1586 7458]]
+Feature: C12-N2
+evaluating predictions...
+AUC score: 0.6867313318374186
+Overall accuracy: 0.9003605375286792
+confusion matrix:
+[[  51   58]
+ [ 854 8190]]
+Feature: C12-N3
+evaluating predictions...
+AUC score: 0.603585325970079
+Overall accuracy: 0.7539604501256418
+confusion matrix:
+[[  49   60]
+ [2192 6852]]
+Feature: C13-C14
+evaluating predictions...
+AUC score: 0.5056122159148546
+Overall accuracy: 0.5155686660111439
+confusion matrix:
+[[  54   55]
+ [4379 4665]]
+Feature: C13-C15
+evaluating predictions...
+AUC score: 0.6389313813405614
+Overall accuracy: 0.6088714082814378
+confusion matrix:
+[[  73   36]
+ [3544 5500]]
+Feature: C13-C16
+evaluating predictions...
+AUC score: 0.6052195383223303
+Overall accuracy: 0.6138970829236315
+confusion matrix:
+[[  65   44]
+ [3490 5554]]
+Feature: C13-C17
+evaluating predictions...
+AUC score: 0.6911039403690012
+Overall accuracy: 0.6134600677373538
+confusion matrix:
+[[  84   25]
+ [3513 5531]]
+Feature: C13-C18
+evaluating predictions...
+AUC score: 0.6974079829903956
+Overall accuracy: 0.6348738118649623
+confusion matrix:
+[[  83   26]
+ [3316 5728]]
+Feature: C13-C19
+evaluating predictions...
+AUC score: 0.5849714342521171
+Overall accuracy: 0.49328089151098
+confusion matrix:
+[[  74   35]
+ [4603 4441]]
+Feature: C13-F1
+evaluating predictions...
+AUC score: 0.48062479458224616
+Overall accuracy: 0.4751447612804545
+confusion matrix:
+[[  53   56]
+ [4748 4296]]
+Feature: C13-F2
+evaluating predictions...
+AUC score: 0.5097479600241834
+Overall accuracy: 0.46105102152299793
+confusion matrix:
+[[  61   48]
+ [4885 4159]]
+Feature: C13-F3
+evaluating predictions...
+AUC score: 0.5096389110931674
+Overall accuracy: 0.4697913252485524
+confusion matrix:
+[[  60   49]
+ [4804 4240]]
+Feature: C13-N1
+evaluating predictions...
+AUC score: 0.6715294036494366
+Overall accuracy: 0.879274554790779
+confusion matrix:
+[[  50   59]
+ [1046 7998]]
+Feature: C13-N2
+evaluating predictions...
+AUC score: 0.6826447865481297
+Overall accuracy: 0.9191521905386212
+confusion matrix:
+[[  48   61]
+ [ 679 8365]]
+Feature: C13-N3
+evaluating predictions...
+AUC score: 0.6579292267365662
+Overall accuracy: 0.852398120834699
+confusion matrix:
+[[  50   59]
+ [1292 7752]]
+Feature: C14-C15
+evaluating predictions...
+AUC score: 0.6045038730122663
+Overall accuracy: 0.6303944062056156
+confusion matrix:
+[[  63   46]
+ [3337 5707]]
+Feature: C14-C16
+evaluating predictions...
+AUC score: 0.5342408571347419
+Overall accuracy: 0.518409264721949
+confusion matrix:
+[[  60   49]
+ [4359 4685]]
+Feature: C14-C17
+evaluating predictions...
+AUC score: 0.6932615875901302
+Overall accuracy: 0.626679777122255
+confusion matrix:
+[[  83   26]
+ [3391 5653]]
+Feature: C14-C18
+evaluating predictions...
+AUC score: 0.6764609513530183
+Overall accuracy: 0.6293018682399213
+confusion matrix:
+[[  79   30]
+ [3363 5681]]
+Feature: C14-C19
+evaluating predictions...
+AUC score: 0.5955816416378237
+Overall accuracy: 0.48738118649623074
+confusion matrix:
+[[  77   32]
+ [4660 4384]]
+Feature: C14-F1
+evaluating predictions...
+AUC score: 0.4903844203060268
+Overall accuracy: 0.3421828908554572
+confusion matrix:
+[[  70   39]
+ [5982 3062]]
+Feature: C14-F2
+evaluating predictions...
+AUC score: 0.5069268895390121
+Overall accuracy: 0.44652026657926364
+confusion matrix:
+[[  62   47]
+ [5019 4025]]
+Feature: C14-F3
+evaluating predictions...
+AUC score: 0.5051116052408409
+Overall accuracy: 0.49666775920463235
+confusion matrix:
+[[  56   53]
+ [4554 4490]]
+Feature: C14-N1
+evaluating predictions...
+AUC score: 0.7242056165778721
+Overall accuracy: 0.9206817436905933
+confusion matrix:
+[[  57   52]
+ [ 674 8370]]
+Feature: C14-N2
+evaluating predictions...
+AUC score: 0.6988418496321753
+Overall accuracy: 0.9422047416147711
+confusion matrix:
+[[  49   60]
+ [ 469 8575]]
+Feature: C14-N3
+evaluating predictions...
+AUC score: 0.681648130039075
+Overall accuracy: 0.9082268108816781
+confusion matrix:
+[[  49   60]
+ [ 780 8264]]
+Feature: C15-C15
+evaluating predictions...
+AUC score: 0.6620269305211219
+Overall accuracy: 0.5739101933792199
+confusion matrix:
+[[  82   27]
+ [3873 5171]]
+Feature: C15-C16
+evaluating predictions...
+AUC score: 0.5155559568105369
+Overall accuracy: 0.4904402928001748
+confusion matrix:
+[[  59   50]
+ [4614 4430]]
+Feature: C15-C17
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: C15-C18
+evaluating predictions...
+AUC score: 0.4966499153983177
+Overall accuracy: 0.4620343056921228
+confusion matrix:
+[[  58   51]
+ [4873 4171]]
+Feature: C15-C19
+evaluating predictions...
+AUC score: 0.49351437822835564
+Overall accuracy: 0.22298699879820824
+confusion matrix:
+[[  84   25]
+ [7087 1957]]
+Feature: C15-F1
+evaluating predictions...
+AUC score: 0.631751904045056
+Overall accuracy: 0.6394624713208784
+confusion matrix:
+[[  68   41]
+ [3259 5785]]
+Feature: C15-F2
+evaluating predictions...
+AUC score: 0.6654069401782925
+Overall accuracy: 0.6253687315634219
+confusion matrix:
+[[  77   32]
+ [3397 5647]]
+Feature: C15-F3
+evaluating predictions...
+AUC score: 0.6027915511931474
+Overall accuracy: 0.6359663498306566
+confusion matrix:
+[[  62   47]
+ [3285 5759]]
+Feature: C15-N1
+evaluating predictions...
+AUC score: 0.5948243855726743
+Overall accuracy: 0.5843985578498853
+confusion matrix:
+[[  66   43]
+ [3761 5283]]
+Feature: C15-N2
+evaluating predictions...
+AUC score: 0.6062653936514248
+Overall accuracy: 0.5890964711023708
+confusion matrix:
+[[  68   41]
+ [3720 5324]]
+Feature: C15-N3
+evaluating predictions...
+AUC score: 0.6296972193029795
+Overall accuracy: 0.5816672129356495
+confusion matrix:
+[[  74   35]
+ [3794 5250]]
+Feature: C16-C17
+evaluating predictions...
+AUC score: 0.5019035378516448
+Overall accuracy: 0.48137222768491206
+confusion matrix:
+[[  57   52]
+ [4695 4349]]
+Feature: C16-C18
+evaluating predictions...
+AUC score: 0.5639153536837236
+Overall accuracy: 0.4964492516114935
+confusion matrix:
+[[  69   40]
+ [4569 4475]]
+Feature: C16-C19
+evaluating predictions...
+AUC score: 0.5007978324115739
+Overall accuracy: 0.47918715175352344
+confusion matrix:
+[[  57   52]
+ [4715 4329]]
+Feature: C16-F1
+evaluating predictions...
+AUC score: 0.6354022536102805
+Overall accuracy: 0.6556320332131541
+confusion matrix:
+[[  67   42]
+ [3110 5934]]
+Feature: C16-F2
+evaluating predictions...
+AUC score: 0.6350674987522773
+Overall accuracy: 0.6370588877963509
+confusion matrix:
+[[  69   40]
+ [3282 5762]]
+Feature: C16-F3
+evaluating predictions...
+AUC score: 0.5778685448104882
+Overall accuracy: 0.6494045668086966
+confusion matrix:
+[[  55   54]
+ [3155 5889]]
+Feature: C16-N1
+evaluating predictions...
+AUC score: 0.5055741755900814
+Overall accuracy: 0.29159838304381075
+confusion matrix:
+[[  79   30]
+ [6454 2590]]
+Feature: C16-N2
+evaluating predictions...
+AUC score: 0.48810859447593624
+Overall accuracy: 0.2839506172839506
+confusion matrix:
+[[  76   33]
+ [6521 2523]]
+Feature: C16-N3
+evaluating predictions...
+AUC score: 0.4823082057545375
+Overall accuracy: 0.29935540260024035
+confusion matrix:
+[[  73   36]
+ [6377 2667]]
+Feature: C17-C18
+evaluating predictions...
+AUC score: 0.5132309321604064
+Overall accuracy: 0.46793401070687207
+confusion matrix:
+[[  61   48]
+ [4822 4222]]
+Feature: C17-C19
+evaluating predictions...
+AUC score: 0.5148834038685489
+Overall accuracy: 0.43537637932918166
+confusion matrix:
+[[  65   44]
+ [5124 3920]]
+Feature: C17-F1
+evaluating predictions...
+AUC score: 0.6670026050014404
+Overall accuracy: 0.5837430350704687
+confusion matrix:
+[[  82   27]
+ [3783 5261]]
+Feature: C17-F2
+evaluating predictions...
+AUC score: 0.6672805529744491
+Overall accuracy: 0.5932481153720092
+confusion matrix:
+[[  81   28]
+ [3695 5349]]
+Feature: C17-F3
+evaluating predictions...
+AUC score: 0.680599738688329
+Overall accuracy: 0.592701846389162
+confusion matrix:
+[[  84   25]
+ [3703 5341]]
+Feature: C17-N1
+evaluating predictions...
+AUC score: 0.7075911243299832
+Overall accuracy: 0.7176881896645908
+confusion matrix:
+[[  76   33]
+ [2551 6493]]
+Feature: C17-N2
+evaluating predictions...
+AUC score: 0.6799302289723229
+Overall accuracy: 0.5555555555555556
+confusion matrix:
+[[  88   21]
+ [4047 4997]]
+Feature: C17-N3
+evaluating predictions...
+AUC score: 0.6765071069470763
+Overall accuracy: 0.5756582541243308
+confusion matrix:
+[[  85   24]
+ [3860 5184]]
+Feature: C18-C19
+evaluating predictions...
+AUC score: 0.4857034315416171
+Overall accuracy: 0.4404020539713755
+confusion matrix:
+[[  58   51]
+ [5071 3973]]
+Feature: C18-F1
+evaluating predictions...
+AUC score: 0.6457299481840055
+Overall accuracy: 0.6133508139407844
+confusion matrix:
+[[  74   35]
+ [3504 5540]]
+Feature: C18-F2
+evaluating predictions...
+AUC score: 0.6451248534179486
+Overall accuracy: 0.6300666448159074
+confusion matrix:
+[[  72   37]
+ [3349 5695]]
+Feature: C18-F3
+evaluating predictions...
+AUC score: 0.6931510170461231
+Overall accuracy: 0.6264612695291162
+confusion matrix:
+[[  83   26]
+ [3393 5651]]
+Feature: C18-N1
+evaluating predictions...
+AUC score: 0.49269118560026626
+Overall accuracy: 0.2571834371244401
+confusion matrix:
+[[  80   29]
+ [6770 2274]]
+Feature: C18-N2
+evaluating predictions...
+AUC score: 0.45543956356081783
+Overall accuracy: 0.246258057467497
+confusion matrix:
+[[  73   36]
+ [6863 2181]]
+Feature: C18-N3
+evaluating predictions...
+AUC score: 0.4619647472702263
+Overall accuracy: 0.26810881678138315
+confusion matrix:
+[[  72   37]
+ [6662 2382]]
+Feature: C19-F1
+evaluating predictions...
+AUC score: 0.5213781553181388
+Overall accuracy: 0.27805091226920137
+confusion matrix:
+[[  84   25]
+ [6583 2461]]
+Feature: C19-F2
+evaluating predictions...
+AUC score: 0.5004077922815674
+Overall accuracy: 0.4605047525401508
+confusion matrix:
+[[  59   50]
+ [4888 4156]]
+Feature: C19-F3
+evaluating predictions...
+AUC score: 0.5575529825643439
+Overall accuracy: 0.457008631049929
+confusion matrix:
+[[  72   37]
+ [4933 4111]]
+Feature: C19-N1
+evaluating predictions...
+AUC score: 0.5596325203186054
+Overall accuracy: 0.33573691685786083
+confusion matrix:
+[[  86   23]
+ [6057 2987]]
+Feature: C19-N2
+evaluating predictions...
+AUC score: 0.5883793401474545
+Overall accuracy: 0.3835900797552715
+confusion matrix:
+[[  87   22]
+ [5620 3424]]
+Feature: C19-N3
+evaluating predictions...
+AUC score: 0.5227141315241692
+Overall accuracy: 0.3344258712990276
+confusion matrix:
+[[  78   31]
+ [6061 2983]]
+Feature: F1-F2
+evaluating predictions...
+AUC score: 0.5672309483909449
+Overall accuracy: 0.49404566808696604
+confusion matrix:
+[[  70   39]
+ [4592 4452]]
+Feature: F1-F3
+evaluating predictions...
+AUC score: 0.5
+Overall accuracy: 0.011908663826067955
+confusion matrix:
+[[ 109    0]
+ [9044    0]]
+Feature: F1-N1
+evaluating predictions...
+AUC score: 0.5696416905728974
+Overall accuracy: 0.6958374303507047
+confusion matrix:
+[[  48   61]
+ [2723 6321]]
+Feature: F1-N2
+evaluating predictions...
+AUC score: 0.5853381429829295
+Overall accuracy: 0.6999890746203431
+confusion matrix:
+[[  51   58]
+ [2688 6356]]
+Feature: F1-N3
+evaluating predictions...
+AUC score: 0.5266759045482027
+Overall accuracy: 0.557194362504097
+confusion matrix:
+[[  54   55]
+ [3998 5046]]
+Feature: F2-F3
+evaluating predictions...
+AUC score: 0.4879762141457259
+Overall accuracy: 0.48071670490549545
+confusion matrix:
+[[  54   55]
+ [4698 4346]]
+Feature: F2-N1
+evaluating predictions...
+AUC score: 0.5751103676622749
+Overall accuracy: 0.6797771222549983
+confusion matrix:
+[[  51   58]
+ [2873 6171]]
+Feature: F2-N2
+evaluating predictions...
+AUC score: 0.5574789307321191
+Overall accuracy: 0.6718015951054299
+confusion matrix:
+[[  48   61]
+ [2943 6101]]
+Feature: F2-N3
+evaluating predictions...
+AUC score: 0.5152917033544466
+Overall accuracy: 0.5615645143668743
+confusion matrix:
+[[  51   58]
+ [3955 5089]]
+Feature: F3-N1
+evaluating predictions...
+AUC score: 0.5758889263092972
+Overall accuracy: 0.7081831093630504
+confusion matrix:
+[[  48   61]
+ [2610 6434]]
+Feature: F3-N2
+evaluating predictions...
+AUC score: 0.5826337294937289
+Overall accuracy: 0.7215120725445209
+confusion matrix:
+[[  48   61]
+ [2488 6556]]
+Feature: F3-N3
+evaluating predictions...
+AUC score: 0.5142965684583829
+Overall accuracy: 0.5595979460286244
+confusion matrix:
+[[  51   58]
+ [3973 5071]]
+Feature: N1-N2
+evaluating predictions...
+AUC score: 0.5161534435116393
+Overall accuracy: 0.4289304053315853
+confusion matrix:
+[[  66   43]
+ [5184 3860]]
+Feature: N1-N3
+evaluating predictions...
+AUC score: 0.536441616723947
+Overall accuracy: 0.4600677373538731
+confusion matrix:
+[[  67   42]
+ [4900 4144]]
+Feature: N2-N3
+evaluating predictions...
+AUC score: 0.4973610158694091
+Overall accuracy: 0.41866054845405876
+confusion matrix:
+[[  63   46]
+ [5275 3769]]
+Feature: P1-N1
+evaluating predictions...
+AUC score: 0.47414424485390483
+Overall accuracy: 0.3906915765322845
+confusion matrix:
+[[  61   48]
+ [5529 3515]]
+Feature: P1-N2
+evaluating predictions...
+AUC score: 0.6911577040280139
+Overall accuracy: 0.6046105102152299
+confusion matrix:
+[[  85   24]
+ [3595 5449]]
+Feature: P1-N3
+evaluating predictions...
+AUC score: 0.6747993499669303
+Overall accuracy: 0.6081066317054518
+confusion matrix:
+[[  81   28]
+ [3559 5485]]
+Feature: P1-Or
+evaluating predictions...
+AUC score: 0.6294791214409472
+Overall accuracy: 0.5991478203867584
+confusion matrix:
+[[  72   37]
+ [3632 5412]]
+Feature: P2-N1
+evaluating predictions...
+AUC score: 0.47403367430989773
+Overall accuracy: 0.39047306893914563
+confusion matrix:
+[[  61   48]
+ [5531 3513]]
+Feature: P2-N2
+evaluating predictions...
+AUC score: 0.691268274572021
+Overall accuracy: 0.6048290178083688
+confusion matrix:
+[[  85   24]
+ [3593 5451]]
+Feature: P2-N3
+evaluating predictions...
+AUC score: 0.6703780498196382
+Overall accuracy: 0.6083251392985907
+confusion matrix:
+[[  80   29]
+ [3556 5488]]
+Feature: P2-Or
+evaluating predictions...
+AUC score: 0.6296449772569579
+Overall accuracy: 0.5994755817764668
+confusion matrix:
+[[  72   37]
+ [3629 5415]]

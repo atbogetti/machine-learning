@@ -1,11 +1,19 @@
 import numpy as np
 import pandas as pd
 import h5py
+import matplotlib
+import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from itertools import combinations 
+
+def absolute_maximum_scale(series):
+    return series / series.abs().max()
+
+def min_max_scaling(series):
+    return (series - series.min()) / (series.max() - series.min())
 
 # Prepare the data
 
@@ -67,6 +75,14 @@ for idx in range(0,666):
 
 ionpair = df.loc[(df['Mindist'] < 4) & (df['Mindist'] > 2.25)]
 
+#Normalize weights
+df['Weight'] = min_max_scaling(df['Weight'])
+
+plt.hist(df['Weight'], bins=100)
+plt.savefig("weights_hist.pdf")
+
+print(ionpair)
+
 h5file.close()
 
 # Split/scale the data and train the model with weights from WE
@@ -79,6 +95,7 @@ y = df.iloc[:,5]
 W = df.iloc[:,3]
 Xtrain, Xtest, ytrain, ytest, Wtrain, Wtest = train_test_split(X, y, W, test_size=0.25, random_state=None)
 
+#Scale feature data
 scaler = preprocessing.StandardScaler().fit(Xtrain)
 Xtrain_scaled = scaler.transform(Xtrain)
 
